@@ -26,7 +26,7 @@ $(OUT)/%.pdf: $(CWD)/css/checklist.css $$(wildcard $(SRC)/%/*.html) | outdir
 	@$(PANDOC) $(PANDOC_OPTIONS) $(filter-out $<,$^) -o $@
 
 outdir:
-	@mkdir out
+	@mkdir -p out
 
 clean:
 	- $(RM) $(TARGETS)
