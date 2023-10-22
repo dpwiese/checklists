@@ -1,0 +1,3 @@
+pdf-engine: weasyprint
+template: checklist
+css: ./css/checklist.css

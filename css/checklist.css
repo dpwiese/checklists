@@ -1,0 +1,471 @@
+:root {
+  --orange: #f2ac29;
+  --blue: blue;
+  --white: #ffffff;
+  --red: red;
+  --green: green;
+  --grey: #404040;
+  --black: black;
+  --yellow: yellow;
+  --lightgrey: lightgrey;
+  --lightblue: lightblue;
+  --lightyellow: #ffe878;
+  --ceilblue: #93A9D7;
+  --purple: #5C4A77;
+  --item-column-font-size: 8pt;
+  --item-special-font-size: 7pt;
+  --unhighlight-font-size: 7pt;
+  --recovery-font-size: 9pt;
+  --inter-column-spacing: 1.5pt;
+}
+
+@page {
+  size: letter portrait;
+  margin: 1in;
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 100;
+  src: url(/Library/Fonts/SF-Pro-Text-Ultralight.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 200;
+  src: url(/Library/Fonts/SF-Pro-Text-Thin.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: url(/Library/Fonts/SF-Pro-Text-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/Library/Fonts/SF-Pro-Text-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 500;
+  src: url(/Library/Fonts/SF-Pro-Text-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: url(/Library/Fonts/SF-Pro-Text-Semibold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: url(/Library/Fonts/SF-Pro-Text-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 800;
+  src: url(/Library/Fonts/SF-Pro-Text-Heavy.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 900;
+  src: url(/Library/Fonts/SF-Pro-Text-Black.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: italic;
+  font-weight: 100;
+  src: url(/Library/Fonts/SF-Pro-Text-UltralightItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: italic;
+  font-weight: 200;
+  src: url(/Library/Fonts/SF-Pro-Text-ThinItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: italic;
+  font-weight: 300;
+  src: url(/Library/Fonts/SF-Pro-Text-LightItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: italic;
+  font-weight: 400;
+  src: url(/Library/Fonts/SF-Pro-Text-RegularItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: italic;
+  font-weight: 500;
+  src: url(/Library/Fonts/SF-Pro-Text-MediumItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: italic;
+  font-weight: 600;
+  src: url(/Library/Fonts/SF-Pro-Text-SemiboldItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: italic;
+  font-weight: 700;
+  src: url(/Library/Fonts/SF-Pro-Text-BoldItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: italic;
+  font-weight: 800;
+  src: url(/Library/Fonts/SF-Pro-Text-HeavyItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: italic;
+  font-weight: 900;
+  src: url(/Library/Fonts/SF-Pro-Text-BlackItalic.otf) format("opentype");
+}
+
+html, body{
+  font-family: SF Pro;
+  margin: 0px;
+}
+
+b {
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 9pt;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 10pt;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 8pt;
+  font-weight: 800;
+}
+
+table, tr, td {
+  border: solid;
+  border-color: var(--black);
+  border-width: 1px;
+  border-collapse: collapse;
+  font-size: 9pt;
+}
+
+tr {
+  width: 100%;
+}
+
+td {
+  padding-left: 6px;
+  padding-right: 6px;
+  width: 50%;
+}
+
+th {
+  font-size: 7pt;
+  border: solid;
+  border-color: var(--black);
+  border-width: 1px;
+}
+
+.table-subheading {
+  font-size: 7pt;
+  text-align: center;
+}
+
+.table-text {
+  font-size: 7pt;
+  font-weight: 400;
+  text-align: center;
+}
+
+.row-shaded {
+  background-color: var(--lightblue);
+}
+
+.table {
+  width: 100%;
+  margin-top: 6px;
+}
+
+.table-item-left {
+  font-size: 8pt;
+  float: left;
+  width: 25%;
+}
+
+.table-item-right {
+  font-size: 8pt;
+  float: right;
+  width: 65%;
+}
+
+.col-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border: solid;
+  border-color: var(--black);
+  border-width: 1px;
+  width: 6.5in;
+  height: 8.65in;
+  padding: 2px;
+}
+
+.col {
+  /*width: calc(33.3% - 2 * var(--inter-column-spacing));*/
+  width:32.5%;
+}
+
+.heading {
+  text-transform: uppercase;
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.red-heading {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.green-heading {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.blue-heading {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.ceilblue-heading {
+  background-color: var(--ceilblue);
+  color: var(--white);
+}
+
+.orange-heading {
+  background-color: var(--orange);
+  color: var(--black);
+}
+
+.black-heading {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.grey-heading {
+  background-color: var(--lightgrey);
+  color: var(--black);
+}
+
+.purple-heading {
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+.emergency-heading {
+  background-color: var(--black);
+  color: var(--red);
+}
+
+.less-emergency-heading {
+  background-color: var(--grey);
+  color: var(--red);
+}
+
+.blue-text {
+  color: var(--blue);
+}
+
+.green-text {
+  color: var(--green);
+}
+
+.red-text {
+  color: var(--red);
+}
+
+.heading-margin {
+  margin-top: 10px;
+}
+
+.notice {
+  border: solid;
+  border-color: var(--red);
+  border-width: 1px;
+}
+
+.item-row {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.item-top-margin {
+  margin-top: 6px;
+}
+
+.item-bottom-margin {
+  margin-bottom: 6px;
+}
+
+.item-column {
+  font-size: var(--item-column-font-size);
+  font-weight: 400;
+}
+
+.item-column-left {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.item-column-center {
+  overflow: hidden;
+  flex: 1;
+}
+
+.item-column-right {
+  text-align: right;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.periods {
+  overflow: hidden;
+}
+
+.safety {
+  color: red;
+  font-weight: 700;
+}
+
+.unhighlight {
+  font-size: var(--unhighlight-font-size);
+  font-weight: 400;
+  text-align: center;
+  font-style: italic;
+}
+
+.unhighlight-roomy {
+  font-size: var(--unhighlight-font-size);
+  font-weight: 400;
+  text-align: center;
+  font-style: italic;
+  margin: 4px;
+}
+
+.recovery {
+  font-size: var(--recovery-font-size);
+  font-weight: 800;
+  text-align: center;
+  margin: 2px;
+}
+
+.recovery-box {
+  background-color: var(--lightgrey);
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.bold-row > div {
+  font-weight: 800;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.highlight {
+  background-color: var(--yellow);
+  margin: 4px;
+  padding: 2px;
+}
+
+.highlight-blue {
+  background-color: var(--blue);
+  margin: 4px;
+  padding: 2px;
+  color: var(--white);
+}
+
+.highlight-only {
+  background-color: var(--yellow);
+}
+
+.highlight-red {
+  background-color: var(--red);
+}
+
+.prime {
+  background-color: var(--lightgrey);
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.magneto {
+  background-color: var(--lightyellow);
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.item-indent {
+  padding-left: 12px;
+}
+
+.item-indent-small {
+  padding-left: 6px;
+}
+
+.item-indent-large {
+  padding-left: 18px;
+}
+
+.item-row-special {
+  font-size: var(--item-special-font-size);
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 40px;
+  /*width: calc(100% - 40px);*/
+  width: 90%;
+}
