@@ -12,21 +12,21 @@ PANDOC=/opt/homebrew/bin/pandoc
 PANDOC_OPTIONS=--defaults ./pandoc/defaults.yaml
 RM=/bin/rm -f
 
-.PHONY: all clean
-.SILENT: all clean
+.PHONY: all list clean
+.SILENT: all list clean
+
+all: $(TARGETS)
 
 list:
 	@echo $(TARGETS)
 
-all: $(TARGETS)
-
 .SECONDEXPANSION:
-$(OUT)/%.pdf: $(CWD)/css/checklist.css $$(wildcard $(SRC)/%/*.html) | outdir
+$(OUT)/%.pdf: $(CWD)/css/checklist.css $$(wildcard $(SRC)/%/*.html) | $(OUT)
 	@echo $@
 	@$(PANDOC) $(PANDOC_OPTIONS) $(filter-out $<,$^) -o $@
 
-outdir:
-	@mkdir -p out
+$(OUT):
+	@mkdir -p $@
 
 clean:
 	- $(RM) $(TARGETS)
