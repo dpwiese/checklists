@@ -469,3 +469,16 @@ th {
   /*width: calc(100% - 40px);*/
   width: 90%;
 }
+
+.draft-watermark {
+  position: absolute;
+  top: 500px;
+  left: 10px;
+  height: 200px;
+  width: 200px;
+  z-index: 10;
+  font-size: 240px;
+  color: #404040;
+  opacity: 0.3;
+  transform: rotate(-50deg);
+}

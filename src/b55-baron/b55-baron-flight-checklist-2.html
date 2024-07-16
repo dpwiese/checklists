@@ -11,6 +11,7 @@
   <body>
     <div class="col-container">
       <div class="col">
+        <div class="draft-watermark">DRAFT</div>
         <h2 class="heading purple-heading">Pre-Maneuver Checks</h2>
         <div class="item-row">
           <div class="item-column item-column-left">Area</div>
@@ -33,6 +34,11 @@
           <div class="item-column item-column-right">Mains</div>
         </div>
         <div class="item-row">
+          <div class="item-column item-column-left">Fuel Quantity Selector</div>
+          <div class="item-column item-column-center periods">.........................................................</div>
+          <div class="item-column item-column-right">Mains</div>
+        </div>
+        <div class="item-row">
           <div class="item-column item-column-left">Fuel Quantity</div>
           <div class="item-column item-column-center periods">.........................................................</div>
           <div class="item-column item-column-right">Check</div>
@@ -51,7 +57,7 @@
         <div class="item-row">
           <div class="item-column item-column-left">Throttles</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">20-21" MP</div>
+          <div class="item-column item-column-right">20" MP</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">Props</div>
@@ -61,7 +67,7 @@
         <div class="item-row">
           <div class="item-column item-column-left">Airspeed</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">120 KIAS ??</div>
+          <div class="item-column item-column-right">120 KIAS</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">Heading Bug</div>
@@ -76,12 +82,12 @@
         <div class="item-row">
           <div class="item-column item-column-left">Throttles</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">Increase to 22-23" MP??</div>
+          <div class="item-column item-column-right">Increase to 22" MP</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">Trim</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">?? Turns Nose Up</div>
+          <div class="item-column item-column-right">1 Turn Nose Up</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">Turns</div>
@@ -91,12 +97,12 @@
         <div class="item-row">
           <div class="item-column item-column-left">Trim</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">?? Turns Nose Down</div>
+          <div class="item-column item-column-right">1 Turn Nose Down</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">Throttles</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">Reduce to 20-21" MP</div>
+          <div class="item-column item-column-right">20" MP</div>
         </div>
         <h2 class="heading purple-heading heading-margin">Slow Flight</h2>
         <div class="item-row bold-row">
@@ -147,13 +153,19 @@
         <div class="item-row">
           <div class="item-column item-column-left">Throttles</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">17" MP (Maintain Alt.)</div>
+          <div class="item-column item-column-right">17" MP</div>
+        </div>
+        <div class="item-row">
+          <div class="item-column item-column-left">Altitude</div>
+          <div class="item-column item-column-center periods">.........................................................</div>
+          <div class="item-column item-column-right">Maintain</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">Airspeed</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">90 KIAS (&gt;85 KIAS)</div>
+          <div class="item-column item-column-right">90 KIAS</div>
         </div>
+        <div class="unhighlight">Minimum 85 KIAS</div>
         <div class="recovery-box">
           <div class="recovery">Recovery</div>
           <div class="item-row">
@@ -201,7 +213,7 @@
         <div class="item-row">
           <div class="item-column item-column-left">Airspeed</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">110 KIAS ??</div>
+          <div class="item-column item-column-right">110 KIAS</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">Roll</div>
@@ -218,7 +230,7 @@
           <div class="item-row">
             <div class="item-column item-column-left">Pitch</div>
             <div class="item-column item-column-center periods">.........................................................</div>
-            <div class="item-column item-column-right">100 KIAS (V<sub>YSE</sub>)</div>
+            <div class="item-column item-column-right">Below Horizon</div>
           </div>
           <div class="item-row">
             <div class="item-column item-column-left">Roll</div>
@@ -231,14 +243,9 @@
             <div class="item-column item-column-right">Full</div>
           </div>
           <div class="item-row">
-            <div class="item-column item-column-left">Throttles</div>
+            <div class="item-column item-column-left">Airspeed</div>
             <div class="item-column item-column-center periods">.........................................................</div>
-            <div class="item-column item-column-right">21" MP</div>
-          </div>
-          <div class="item-row">
-            <div class="item-column item-column-left">Prop</div>
-            <div class="item-column item-column-center periods">.........................................................</div>
-            <div class="item-column item-column-right">2300 RPM</div>
+            <div class="item-column item-column-right">100 KIAS (V<sub>YSE</sub>)</div>
           </div>
         </div>
       </div>
@@ -292,7 +299,7 @@
         <div class="item-row">
           <div class="item-column item-column-left">Altitude</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">Maintain with Pitch</div>
+          <div class="item-column item-column-right">Maintain</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">Airspeed</div>
@@ -337,14 +344,14 @@
             <div class="item-column item-column-right">Full</div>
           </div>
           <div class="item-row">
+            <div class="item-column item-column-left">Airspeed</div>
+            <div class="item-column item-column-center periods">.........................................................</div>
+            <div class="item-column item-column-right">100 KIAS (V<sub>YSE</sub>)</div>
+          </div>
+          <div class="item-row">
             <div class="item-column item-column-left">Vertical Speed</div>
             <div class="item-column item-column-center periods">.........................................................</div>
             <div class="item-column item-column-right">"Positive Rate"</div>
-          </div>
-          <div class="item-row">
-            <div class="item-column item-column-left">Airspeed</div>
-            <div class="item-column item-column-center periods">.........................................................</div>
-            <div class="item-column item-column-right">100 KIAS</div>
           </div>
           <div class="item-row">
             <div class="item-column item-column-left">Landing Gear</div>
@@ -354,17 +361,7 @@
           <div class="item-row">
             <div class="item-column item-column-left">Flaps</div>
             <div class="item-column item-column-center periods">.........................................................</div>
-            <div class="item-column item-column-right">Up Incrementally</div>
-          </div>
-          <div class="item-row">
-            <div class="item-column item-column-left">Throttles</div>
-            <div class="item-column item-column-center periods">.........................................................</div>
-            <div class="item-column item-column-right">21" MP</div>
-          </div>
-          <div class="item-row">
-            <div class="item-column item-column-left">Prop</div>
-            <div class="item-column item-column-center periods">.........................................................</div>
-            <div class="item-column item-column-right">2300 RPM</div>
+            <div class="item-column item-column-right">Up (Incrementally)</div>
           </div>
         </div>
         <h2 class="heading heading-margin purple-heading">Power On Stall</h2>
@@ -396,7 +393,7 @@
         <div class="item-row">
           <div class="item-column item-column-left">Airspeed</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">100 KIAS (V<sub>YSE</sub>)</div>
+          <div class="item-column item-column-right">100 KIAS</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">Prop</div>
@@ -438,17 +435,7 @@
           <div class="item-row">
             <div class="item-column item-column-left">Airspeed</div>
             <div class="item-column item-column-center periods">.........................................................</div>
-            <div class="item-column item-column-right">100 KIAS</div>
-          </div>
-          <div class="item-row">
-            <div class="item-column item-column-left">Throttles</div>
-            <div class="item-column item-column-center periods">.........................................................</div>
-            <div class="item-column item-column-right">21" MP</div>
-          </div>
-          <div class="item-row">
-            <div class="item-column item-column-left">Prop</div>
-            <div class="item-column item-column-center periods">.........................................................</div>
-            <div class="item-column item-column-right">2300 RPM</div>
+            <div class="item-column item-column-right">100 KIAS (V<sub>YSE</sub>)</div>
           </div>
         </div>
         <h2 class="heading heading-margin grey-heading">Power Settings</h2>
@@ -458,7 +445,7 @@
         <div class="item-row">
           <div class="item-column item-column-left">Takeoff</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">Full Forward / Full</div>
+          <div class="item-column item-column-right">Full / Full Forward</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">Climb</div>
@@ -478,12 +465,12 @@
         <div class="item-row">
           <div class="item-column item-column-left">IAP Outbound</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">18" MP??</div>
+          <div class="item-column item-column-right">20" MP</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">IAP Inbound</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">17" MP</div>
+          <div class="item-column item-column-right">18" MP</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">Precision Approach</div>
@@ -498,12 +485,12 @@
         <div class="item-row">
           <div class="item-column item-column-left">Pattern</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">17" MP</div>
+          <div class="item-column item-column-right">19" MP</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">Abeam Numbers</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">15" MP</div>
+          <div class="item-column item-column-right">17" MP</div>
         </div>
       </div>
       <div class="col">
@@ -684,11 +671,6 @@
           <div class="item-column item-column-right">107 KIAS</div>
         </div>
         <div class="item-row">
-          <div class="item-column item-column-left">Balked Landing</div>
-          <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">90 KIAS</div>
-        </div>
-        <div class="item-row">
           <div class="item-column item-column-left">V<sub>FE</sub></div>
           <div class="item-column item-column-center periods">.........................................................</div>
           <div class="item-column item-column-right">122 KIAS</div>
@@ -703,16 +685,6 @@
           <div class="item-column item-column-left">V<sub>LE</sub></div>
           <div class="item-column item-column-center periods">.........................................................</div>
           <div class="item-column item-column-right">143 KIAS</div>
-        </div>
-        <div class="item-row">
-          <div class="item-column item-column-left">V<sub>REF</sub></div>
-          <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">97/90 KIAS (Flaps up/full)</div>
-        </div>
-        <div class="item-row">
-          <div class="item-column item-column-left">Instrument Approach</div>
-          <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">110 KIAS</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">V<sub>A</sub></div>
@@ -735,24 +707,39 @@
           <div class="item-column item-column-right">22 KIAS</div>
         </div>
         <div class="item-row">
+          <div class="item-column item-column-left">Balked Landing</div>
+          <div class="item-column item-column-center periods">.........................................................</div>
+          <div class="item-column item-column-right">90 KIAS</div>
+        </div>
+        <div class="item-row">
+          <div class="item-column item-column-left">Instrument Approach</div>
+          <div class="item-column item-column-center periods">.........................................................</div>
+          <div class="item-column item-column-right">110 KIAS</div>
+        </div>
+        <div class="item-row">
           <div class="item-column item-column-left">Pattern</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">&gt;100 KIAS</div>
+          <div class="item-column item-column-right">120 KIAS</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">Abeam Numbers</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">&gt;100 KIAS</div>
+          <div class="item-column item-column-right">110 KIAS (Flaps 10&#176;)</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">Base</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">&gt;100 KIAS</div>
+          <div class="item-column item-column-right">100 KIAS (Flaps full)</div>
         </div>
         <div class="item-row">
           <div class="item-column item-column-left">Final</div>
           <div class="item-column item-column-center periods">.........................................................</div>
-          <div class="item-column item-column-right">97/90 KIAS (Flaps up/full)</div>
+          <div class="item-column item-column-right">100 KIAS (Flaps full)</div>
+        </div>
+        <div class="item-row">
+          <div class="item-column item-column-left">Short Final</div>
+          <div class="item-column item-column-center periods">.........................................................</div>
+          <div class="item-column item-column-right">90 KIAS</div>
         </div>
       </div>
     </div>
