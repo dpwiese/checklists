@@ -2,5 +2,6 @@
 
 This checklist is valid for the following aircraft
 
-* KHEF
-  * N19NJ
+* N19NJ (AVL119)
+  * Model: 172P
+  * Serial: 17276343

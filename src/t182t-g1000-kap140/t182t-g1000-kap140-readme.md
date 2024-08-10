@@ -2,5 +2,6 @@
 
 This checklist is valid for the following aircraft
 
-* KHEF
-  * N2080Q
+* N2080Q (AVL140)
+  * Model: T182T
+  * Serial: T18208450

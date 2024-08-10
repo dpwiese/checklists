@@ -2,5 +2,6 @@
 
 This checklist is valid for the following aircraft
 
-* KHEF
-  * N950ME
+* N950ME (AVL110)
+  * Model: 172M
+  * Serial: 17266539

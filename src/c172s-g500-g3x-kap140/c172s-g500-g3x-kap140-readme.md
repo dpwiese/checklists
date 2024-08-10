@@ -2,6 +2,9 @@
 
 This checklist is valid for the following aircraft
 
-* KHEF
-  * N2100S
-  * N65637
+* N2100S (AVL125)
+  * Model: 172S
+  * Serial: 172S9589
+* N65637 (AVL124)
+  * Model: 172S
+  * Serial: 172S9739

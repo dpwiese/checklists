@@ -2,7 +2,12 @@
 
 This checklist is valid for the following aircraft
 
-* KHEF
-  * N16789
-  * N603ND
-  * N988BE
+* N16789 (AVL120)
+  * Model: 172S
+  * Serial: 172S9916
+* N603ND (AVL123)
+  * Model: 172S
+  * Serial: 172S11254
+* N988BE (AVL122)
+  * Model: 172S
+  * Serial: 172S10006

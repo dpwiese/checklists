@@ -2,5 +2,6 @@
 
 This checklist is valid for the following aircraft
 
-* KGPM
-  * N424TR
+* N424TR
+  * Model: 182T
+  * Serial: 18281562

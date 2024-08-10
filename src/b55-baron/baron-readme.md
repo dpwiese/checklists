@@ -2,5 +2,6 @@
 
 This checklist is valid for the following aircraft
 
-* KGPM
-  * N8970M
+* N8970M
+  * Model: 95-B55
+  * Serial: TC-594
